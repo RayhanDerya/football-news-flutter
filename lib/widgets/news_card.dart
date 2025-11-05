@@ -1,8 +1,13 @@
 
 import 'package:flutter/material.dart';
-import 'package:football_news/screens/menu.dart';
 import 'package:football_news/screens/newslist_form.dart';
 
+class ItemHomepage {
+ final String name;
+ final IconData icon;
+
+ ItemHomepage(this.name, this.icon);
+}
 class ItemCard extends StatelessWidget {
   // Menampilkan kartu dengan ikon dan nama.
 

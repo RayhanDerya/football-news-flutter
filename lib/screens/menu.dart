@@ -95,12 +95,7 @@ class MyHomePage extends StatelessWidget {
     );
    }
 }
-class ItemHomepage {
- final String name;
- final IconData icon;
 
- ItemHomepage(this.name, this.icon);
-}
 class InfoCard extends StatelessWidget {
   // Kartu informasi yang menampilkan title dan content.
 
